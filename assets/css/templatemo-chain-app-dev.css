@@ -1369,7 +1369,12 @@ Milheiros
 ---------------------------------------------
 */
 
-.cubo-red {
+.cubo-blue-1 {
+  margin-bottom: -210px;
+  margin-left: 20px;
+}
+
+.cubo-blue {
   margin-top: -170px;
   margin-bottom: 55px;
   margin-left: 50px;
@@ -2352,7 +2357,7 @@ responsive
   form#contact {
     padding: 45px;
   }
-  .cubo-red {
+  .cubo-blue {
     display: none;
   }
   .section-client p {

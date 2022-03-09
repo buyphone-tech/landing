@@ -1034,7 +1034,7 @@ Banner Style
 }
 
 .main-banner .right-image img {
-  max-width: 710px;
+  max-width: 510px;
 }
 
 .main-banner .left-content .white-button a {
@@ -2251,6 +2251,9 @@ responsive
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
+  .main-banner .right-image img {
+    max-width: 350px;
+  }
   .main-banner .left-content {
     margin-right: 0px;
   }
@@ -2264,6 +2267,9 @@ responsive
   .main-banner .right-image {
     margin: 30px auto 0px auto;
     text-align: center;
+  }
+  .clients .right-image img {
+    max-width: 350px;
   }
   .features-item {
     margin-bottom: 45px;
@@ -2367,6 +2373,9 @@ responsive
   .resellers p {
     font-size: 16px;
     margin: 0;
+  }
+  .img-left img {
+    max-width: 300px;
   }
   .content-resellers h2 {
     margin-top: 30px;

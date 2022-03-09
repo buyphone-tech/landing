@@ -1048,8 +1048,16 @@ Services Style
 --------------------------------------------- 
 */
 
+.line-mobile {
+  display: none;
+}
+
 .who-we-are {
   position: relative;
+}
+
+.who-we-are h4 {
+  text-transform: uppercase;
 }
 
 .who-we-are .section-heading p {
@@ -1289,10 +1297,15 @@ About Us
 }
 
 .section-client a {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 150px;
   padding: 15px;
   margin-left: 15px;
-  color: #FFFFFF;
-  background-color: #1D1241;
+  color: #ffffff;
+  background-color: #1d1241;
   border-radius: 10px;
 }
 
@@ -1327,10 +1340,15 @@ Resellers
 }
 
 .content-resellers a {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 15px;
   margin-left: 15px;
-  color: #1D1241;
-  background-color: #FFFFFF;
+  color: #1d1241;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -1420,7 +1438,11 @@ The Clients
   color: #ffffff;
   font-size: 30px;
   margin-top: -80px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+}
+
+.the-clients .testimonials p {
+  margin-bottom: 40px;
 }
 
 .menu .thumb h4 {
@@ -1917,7 +1939,7 @@ footer p a {
 
 footer p a:hover {
   opacity: 0.75;
-  color: #4798F2;
+  color: #4798f2;
 }
 
 /*
@@ -2217,6 +2239,7 @@ responsive
   .main-banner .left-content p {
     color: #afafaf;
     margin: -30px 0;
+    margin-bottom: 40px;
   }
   .main-banner .left-content .white-button a {
     background-color: #4b8ef1;
@@ -2256,19 +2279,26 @@ responsive
     margin-right: 0px;
     margin-bottom: 45px;
   }
+  .line-mobile {
+    display: block;
+  }
   .who-we-are .naccs .menu div {
     font-size: 15px;
     font-weight: 500;
   }
   .who-we-are .section-heading {
-    margin-top: 120px;
+    margin-top: 60px;
   }
   .who-we-are .section-heading::before {
     display: none;
   }
   .service-item {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+  }
+  .clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .clients .box-item {
     text-align: center;
@@ -2295,6 +2325,11 @@ responsive
     margin-left: 30px;
     margin-bottom: 45px;
   }
+  .section-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .section-client h2 {
     font-size: 60px;
     text-align: center;
@@ -2305,6 +2340,12 @@ responsive
     width: 100%;
     top: -30px;
     text-align: center;
+  }
+  .section-client a {
+    margin-top: 20px;
+  }
+  .resellers {
+    height: 750px;
   }
   .resellers .img-ball {
     display: none;
@@ -2327,13 +2368,15 @@ responsive
     margin-top: 30px;
   }
   .content-resellers {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     padding-top: 80px;
     text-align: center;
   }
   .content-resellers .img-left {
-    width: 60%;
+    width: 80%;
     margin: auto;
+    margin-top: 60px;
   }
   .content-resellers .img-small-ball {
     display: none;
@@ -2357,7 +2400,7 @@ responsive
   form#contact {
     padding: 45px;
   }
-  .cubo-blue {
+  .cubo-blue, .cubo-blue-1 {
     display: none;
   }
   .section-client p {
@@ -2437,7 +2480,7 @@ responsive
       display: none;
     }
     .clients .right-image {
-      margin-top: 30px;
+      margin-top: 20px;
     }
     .service-item .icon {
       float: none;

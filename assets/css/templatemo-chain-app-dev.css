@@ -2343,6 +2343,10 @@ responsive
   }
   .section-client a {
     margin-top: 20px;
+    margin-left: 0;
+  }
+  .content-resellers a {
+    margin-left: 0;
   }
   .resellers {
     height: 750px;

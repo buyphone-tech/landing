@@ -1245,10 +1245,7 @@ About Us
 .clients .right-image {
   position: relative;
   z-index: 1;
-}
-
-.clients .right-image img {
-  width: 300px;
+  text-align: center;
 }
 
 /* .clients:after {

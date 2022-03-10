@@ -330,6 +330,12 @@ body {
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all 0.5s;
+  text-align: center;
+  width: 150px;
+}
+
+.gradient-button a>i{
+  margin-right: 10px;
 }
 
 .gradient-button a:hover {

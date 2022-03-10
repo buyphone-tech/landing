@@ -202,7 +202,7 @@ p {
 }
 
 img {
-  width: 100%;
+  width: auto;
   overflow: hidden;
 }
 
@@ -382,10 +382,6 @@ header
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #fff;
-}
-
-.logo img {
-  width: auto;
 }
 
 .background-header .main-nav .nav li:hover a {

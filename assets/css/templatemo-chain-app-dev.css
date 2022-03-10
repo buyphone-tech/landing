@@ -1247,6 +1247,10 @@ About Us
   z-index: 1;
 }
 
+.clients .right-image img {
+  max-width: 400px;
+}
+
 /* .clients:after {
   background-image: url(../images/about-bg.jpg);
   width: 777px;

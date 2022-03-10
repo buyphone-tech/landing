@@ -1248,7 +1248,7 @@ About Us
 }
 
 .clients .right-image img {
-  width: 200px;
+  width: 300px;
 }
 
 /* .clients:after {
@@ -2271,9 +2271,6 @@ responsive
   .main-banner .right-image {
     margin: 30px auto 0px auto;
     text-align: center;
-  }
-  .clients .right-image img {
-    max-width: 350px;
   }
   .features-item {
     margin-bottom: 45px;

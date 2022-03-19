@@ -1494,6 +1494,7 @@ The Clients
 }
 
 .the-clients ul.nacc {
+  display: flex;
   position: relative;
   min-height: 100%;
   list-style: none;
@@ -1836,8 +1837,8 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 footer .section-heading {
@@ -1885,9 +1886,8 @@ footer .section-heading h4 {
   background-color: #fff;
   color: #4b8ef1;
 } */
-
 .footer-widget .logo img {
-  max-width: 96px;
+  max-width: 100px;
   margin-bottom: 30px;
 }
 
@@ -1895,11 +1895,11 @@ footer .section-heading h4 {
   font-size: 20px;
   color: #000;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer-widget p {
-  margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .footer-widget p,
@@ -1932,9 +1932,14 @@ footer .section-heading h4 {
   opacity: 0.75;
 }
 
+.footer-widget-content {
+  display: flex;
+  justify-content: center;
+}
+
 footer .copyright-text p {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 0px;
   color: #000;
 }
@@ -2435,6 +2440,10 @@ responsive
     font-size: 16px;
   }
 
+  .footer-widget-content {
+    display: inline-block;
+  }
+
   @media (max-width: 767px) {
     .the-clients .naccs .menu div {
       text-align: center;
@@ -2446,7 +2455,6 @@ responsive
       margin-bottom: 45px;
     }
     footer {
-      padding-top: 0px;
       text-align: center;
     }
     .footer-widget ul {

@@ -2280,6 +2280,10 @@ responsive
     margin: 30px auto 0px auto;
     text-align: center;
   }
+  .img-airplane img {
+    width: 350px;
+    height: 350px;
+  }
   .features-item {
     margin-bottom: 45px;
   }
@@ -2364,7 +2368,7 @@ responsive
     margin-left: 0;
   }
   .resellers {
-    height: 750px;
+    height: 850px;
   }
   .resellers .img-ball {
     display: none;
@@ -2392,13 +2396,11 @@ responsive
   .content-resellers {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 80px;
+    padding-top: 250px;
     text-align: center;
   }
   .content-resellers .img-left {
-    width: 80%;
     margin: auto;
-    margin-top: 60px;
   }
   .content-resellers .img-small-ball {
     display: none;

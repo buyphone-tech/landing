@@ -1124,6 +1124,10 @@ Services Style
 }
 
 .service-item {
+  background-image: url(../images/service-bg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   z-index: 1;
   padding: 30px;
@@ -1150,19 +1154,21 @@ Services Style
   font-weight: 700;
   margin-bottom: 15px;
   margin-top: 50px;
+  color: #FFFFFF;
 }
 
 .service-item p {
   transition: all 0.3s;
   font-size: 15px;
   margin-bottom: 20px;
+  color: #FFFFFF;
 }
 
-.service-item:hover h4,
+/* .service-item:hover h4,
 .service-item:hover p,
 .service-item:hover .text-button a {
   color: #fff;
-}
+} */
 
 .first-service .icon {
   background-image: url(../images/service-icon-01.svg);
@@ -1196,12 +1202,12 @@ Services Style
   top: -80px;
 }
 
-.service-item:hover {
+/* .service-item:hover {
   background-image: url(../images/service-bg.jpg);
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /*
 ---------------------------------------------

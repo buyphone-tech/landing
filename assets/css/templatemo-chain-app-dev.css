@@ -1285,6 +1285,7 @@ About Us
   color: #1d1241;
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .section-client p {

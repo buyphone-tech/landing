@@ -436,7 +436,7 @@ header
 .header-area .main-nav .logo {
   line-height: 100px;
   float: left;
-  margin-left: 60px;
+  margin-left: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -599,7 +599,7 @@ header
   cursor: pointer;
   display: block;
   position: absolute;
-  top: 33px;
+  top: 25px;
   width: 32px;
   height: 40px;
   text-indent: -9999em;
@@ -763,6 +763,8 @@ header
 
   .header-area .main-nav .logo {
     color: #1e1e1e;
+    line-height: 80px;
+    margin-left: 10px;
   }
 
   .header-area.header-sticky .nav li a:hover,
@@ -778,7 +780,7 @@ header
   .header-area {
     background-color: #fff;
     padding: 0px 15px;
-    height: 100px;
+    height: 80px;
     box-shadow: none;
     text-align: center;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
@@ -786,6 +788,7 @@ header
 
   .header-area .container {
     padding: 0px;
+    height: 80px;
   }
 
   .header-area .logo {
@@ -830,6 +833,7 @@ header
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
 
   .header-area .main-nav .nav li a {
     height: 50px !important;

@@ -1479,7 +1479,7 @@ The Clients
 
 .the-clients {
   background-color: #1d1241;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   padding-top: 50px;
 }
 
@@ -1602,6 +1602,48 @@ The Clients
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
+}
+
+
+.embed-depoiments {
+  padding: 25px 30px;
+  background-image: url(../images/client-bg.png);
+  background-size: cover;
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.embed-depoiments img {
+  position: absolute;
+}
+
+.embed-depoiments p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+  line-height: 1rem;
+}
+
+.embed-dep {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.embed-depoiments iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 21px;
 }
 
 .the-clients .nacc .thumb .client-content p {
